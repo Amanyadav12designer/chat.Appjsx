@@ -20,7 +20,7 @@ if (properties.length===0){
 
 properties.map(p=>(
 
-    <PropertyCard key={p.id} property={properties} onToggle={onToggle} onDelete={onDelete}/>
+    <PropertyCard key={p.id} property={p} onToggle={onToggle} onDelete={onDelete}/>
 
     
 

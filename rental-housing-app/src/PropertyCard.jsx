@@ -14,10 +14,11 @@ return(
 
 <p>Status:{""}<strong style={{color: property.available ? "green" : "red"}}> {property.available?"Available":"Not Available"}</strong></p>
 <button onClick={()=>onToggle(property.id)}>Toggle Availability</button>
-<button onClick={()=>onDelete(property.id)}>Delete Property</button> style={{marginLeft:"10px",color:"red"}}
+<button onClick={()=>onDelete(property.id)}style={{marginLeft:"10px",color:"red"}}
+>Delete Property</button>
 
-    </div>
+</div>
 
-)
+);
 
 }
